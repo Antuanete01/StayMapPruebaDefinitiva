@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
   // Server Base URL for Rest API
-  serverBaseUrl: 'https://api-test-y44q.onrender.com',
+  serverBaseUrl: 'https://staymap-api.onrender.com',
   concertsEndpointPath: '/concerts',
   communityEndpointPath: '/communities',
   usersEndpointPath: '/users',
