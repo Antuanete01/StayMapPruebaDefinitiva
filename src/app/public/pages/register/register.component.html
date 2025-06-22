@@ -14,8 +14,8 @@
           <input type="email" id="email" required [(ngModel)]="userData.email" [ngModelOptions]="{standalone: true}">
           <label>Tipo de usuario</label>
           <div class="radio-group">
-            <label><input type="radio" name="userType" value="Artist" [(ngModel)]="userData.type" [ngModelOptions]="{standalone: true}"/> Artista</label>
-            <label><input type="radio" name="userType" value="Fan" [(ngModel)]="userData.type" [ngModelOptions]="{standalone: true}"/> Fan</label>
+            <label><input type="radio" name="userType" value="artist" [(ngModel)]="userData.type" [ngModelOptions]="{standalone: true}"/> Artista</label>
+            <label><input type="radio" name="userType" value="fan" [(ngModel)]="userData.type" [ngModelOptions]="{standalone: true}"/> Fan</label>
           </div>
           <label for="password">Contraseña</label>
           <input type="password" id="password" required [(ngModel)]="userData.password" [ngModelOptions]="{standalone: true}">
